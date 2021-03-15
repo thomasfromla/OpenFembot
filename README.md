@@ -1,2 +1,2 @@
-# OpenFembot2
+# OpenFembot
 OpenFembot
