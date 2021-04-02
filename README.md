@@ -34,4 +34,3 @@ AIML Chatbot based on Alice
 Pseudo AI: Scripted replies triggered from smartphone
 Pseudo AI: Real-time human-typed responses
 
-
