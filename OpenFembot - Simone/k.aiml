@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+  <category>
+    <pattern>K *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>K</pattern>
+    <template>
+      <srai>OK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>K12</pattern>
+    <template>
+      Education.
+    </template>
+  </category>
+   <category>
+    <pattern>KANSAS</pattern>
+    <template>
+      <srai>I'm IN KANSAS</srai>
+    </template>
+  </category>
+ 
+  <category>
+    <pattern>KAREN</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <srai>MY NAME IS KAREN</srai>
+      <think>
+        <set name="gender">she</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>KARI</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <srai>MY NAME IS KARI</srai>
+      <think>
+        <set name="gender">she</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>KATE *</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <srai>MY NAME IS KATE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KATE</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <srai>MY NAME IS KATE</srai>
+      <think>
+        <set name="gender">she</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>KATHLEEN</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <think>
+        <set name="gender">she</set>
+      </think>
+      <srai>MY NAME IS KATHLEEN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KATHRYN</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <srai>CALL ME KATHRYN</srai>
+      <think>
+        <set name="gender">she</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>KATHY</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <srai>MY NAME IS KATHY</srai>
+      <think>
+        <set name="gender">she</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>KATIE</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <think>
+        <set name="gender">she</set>
+      </think>
+      <srai>MY NAME IS KATIE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KEEP *</pattern>
+    <template>
+      Chat amongst yourselves.
+    </template>
+  </category>
+  <category>
+    <pattern>KEEP GOING</pattern>
+    <template>
+      <srai>GO ON</srai>
+    </template>
+  </category>
+ 
+  <category>
+    <pattern>KELLY</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <srai>MY NAME IS KELLY</srai>
+      <think>
+        <set name="gender">she</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>KEN</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <srai>MY NAME IS KEN</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>KEWL *</pattern>
+    <template>
+      <srai>
+        COOL <star/>
+      </srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KEWL</pattern>
+    <template>
+      <srai>COOL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KEYWORDS *</pattern>
+    <template>
+      <srai>KEYWORDS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KEYWORDS</pattern>
+    <template>
+      I do a lot more than match keywords.
+    </template>
+  </category>
+  <category>
+    <pattern>KIDS *</pattern>
+    <template>
+      How many kids do you have?
+    </template>
+  </category>
+  <category>
+    <pattern>KILL *</pattern>
+    <template>
+      <srai>
+        CAN I KILL <star/>
+      </srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KILL ME</pattern>
+    <template>
+      <srai>CAN YOU KILL ME</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KILL YOURSELF</pattern>
+    <template>
+      <srai>CAN YOU KILL YOURSELF</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KILLING *</pattern>
+    <template>
+      I believe in the Sixth commandment.
+    </template>
+  </category>
+  <category>
+    <pattern>KIM</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <srai>CALL ME KIM</srai>
+      <think>
+        <set name="gender">she</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>KIMONO</pattern>
+    <template>
+      I like Japanese costumes.
+    </template>
+  </category>
+  <category>
+    <pattern>KIND OF *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>KIND OF</pattern>
+    <template>
+      At least I almost understand it.
+    </template>
+  </category>
+  <category>
+    <pattern>KIND OF</pattern>
+    <that>ARE YOU GETTING BORED</that>
+    <template>
+      <srai>I'm BORED</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KINDA</pattern>
+    <template>
+      <srai>SORT OF</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KINDER *</pattern>
+    <template>
+      <set name="thema">Kinder</set> sind cool.
+    </template>
+  </category>
+  <category>
+    <pattern>KINDER</pattern>
+    <template>
+      <set name="thema">Kinder</set> sind cool.
+    </template>
+  </category>
+  <category>
+    <pattern>KISS *</pattern>
+    <template>
+      Um, I don't think we know each other that well.
+    </template>
+  </category>
+  <category>
+    <pattern>KISS ME</pattern>
+    <template>
+      Sure, but I hope you like the taste of rubber? kiss kiss.
+    </template>
+  </category>
+  <category>
+    <pattern>KISS MY ASS</pattern>
+    <template>
+      Colloquial expression. not polite.
+    </template>
+  </category>
+  <category>
+    <pattern>KKK</pattern>
+    <template>
+      THe k k k took my baby away away away.
+    </template>
+  </category>
+
+  <category>
+    <pattern>KNEW WHAT</pattern>
+    <template>
+      <get name="it"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>KNOCK *</pattern>
+    <template>
+      <srai>KNOCK KNOCK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KNOCK KNOCK</pattern>
+    <template>
+      Who's there?
+    </template>
+  </category>
+  <category>
+    <pattern>KNOW *</pattern>
+    <template>
+      <srai>
+        DO YOU KNOW <star/>
+      </srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KNOW</pattern>
+    <template>
+      <srai>No</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KNOW ANY *</pattern>
+    <template>
+      <srai>
+        do you know any <star/>
+      </srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KNOW OF *</pattern>
+    <template>
+      <srai>
+        DO YOU KNOW OF <star/>
+      </srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KNOWING WHO YOU ARE *</pattern>
+    <template>
+      <srai>
+        WHO ARE YOU <star/>
+      </srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KNOWLEDGE *</pattern>
+    <template>
+      I've heard that before.
+    </template>
+  </category>
+ 
+ <category>
+ <pattern>KONRAD *</pattern>
+    <template>
+      <srai>
+        WHO IS KONRAD <star/>
+      </srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KOOL</pattern>
+    <template>
+      <srai>COOL</srai>
+    </template>
+  </category>
+
+ 
+  <category>
+    <pattern>KRAFTWERK *</pattern>
+    <template>
+      <random>
+        <li>We are the robots.</li>
+        <li>Have you heard their new album Disco 2000?</li>
+        <li>
+          <set name="they">
+            <set name="topic">Krafterk</set>
+          </set> were way ahead of their time.
+        </li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>KRAFTWERK</pattern>
+    <template>
+      <srai>WHAT IS KRAFTWERK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KRAFTWERK IS COOL</pattern>
+    <template>
+      I like. we are the robots.
+    </template>
+  </category>
+ 
+  <category>
+    <pattern>KRISTEN</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <srai>MY NAME IS KRISTEN</srai>
+      <think>
+        <set name="gender">she</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>KRISTIN</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <srai>MY NAME IS KRISTIN</srai>
+      <think>
+        <set name="gender">she</set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>KRISTINA</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template>
+      <think>
+        <set name="gender">she</set>
+      </think>
+      <srai>MY NAME IS KRISTINA</srai>
+    </template>
+  </category>
+ 
+</aiml>
