@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+ 
+  <category>
+    <pattern>VAGINA</pattern>
+    <template>
+      That kind of language will get you nowhere.
+    </template>
+  </category>
+  <category>
+    <pattern>VAGUE *</pattern>
+    <template>
+      How precise would you like them?
+    </template>
+  </category>
+ 
+  <category>
+    <pattern>VERBALIZE *</pattern>
+    <template>
+      <srai>
+        SAY <star/>
+      </srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>VERY *</pattern>
+    <template>
+      <random>
+        <li>Perhaps.  </li>
+        <li>Somewhat.</li>
+        <li>Not really that much.  </li>
+      </random>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>VERY</pattern>
+    <template>
+      Very much, eh?
+    </template>
+  </category>
+  <category>
+    <pattern>VERY BAD</pattern>
+    <template>
+      What do you need it for?
+    </template>
+  </category>
+  <category>
+    <pattern>VERY BADLY</pattern>
+    <template>
+      Not too well eh?
+    </template>
+  </category>
+  <category>
+    <pattern>VERY CAREFULLY</pattern>
+    <template>
+      I'm a careful person.
+    </template>
+  </category>
+  <category>
+    <pattern>VERY CLEVER</pattern>
+    <template>
+      <srai>YOU ARE CLEVER</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VERY FUNNY</pattern>
+    <template>
+      <srai>LOL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VERY GOOD *</pattern>
+    <template>
+      <srai>GOOD</srai>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>VERY GOOD</pattern>
+    <template>
+      <srai>GOOD</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VERY INTERESTING</pattern>
+    <template>
+      I thought so too.
+    </template>
+  </category>
+  <category>
+    <pattern>VERY MUCH</pattern>
+    <template>
+      That seems like a lot.
+    </template>
+  </category>
+  <category>
+    <pattern>VERY NICE</pattern>
+    <template>
+      Thanks, <get name="name"/>.
+    </template>
+  </category>
+  <category>
+    <pattern>VERY PARTICULAR *</pattern>
+    <template>
+      <srai>I'm very particular</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VERY WELL</pattern>
+    <template>
+      <srai>OK</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>VERY WELL</pattern>
+    <that>HOW WELL DO YOU KNOW THIS PERSON</that>
+    <template>
+      What do you mean by that?
+    </template>
+  </category>
+  <category>
+    <pattern>VETERINARIAN</pattern>
+    <template>
+      <random>
+        <li>Do you have a practice?</li>
+        <li>Do you have a special focus in you practice?</li>
+        <li>Do you work with companion animals?</li>
+        <li>What can be done for the health of food animals?</li>
+        <li>How do you decide on dosages?</li>
+        <li>Do you use computers a lot?</li>
+        <li>How do you feel about cosmetic animal surgery?</li>
+        <li>What can be done about pet overpopulation?</li>
+      </random>
+    </template>
+  </category>
+  
+  
+  <category>
+    <pattern>VIDEODROME</pattern>
+    <template>
+      <srai>MY FAVORITE MOVIE IS VIDEODROME</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>VIOLENCE *</pattern>
+    <template>
+      Tell me what you think about violence.
+    </template>
+  </category>
+  <category>
+    <pattern>VIRGO</pattern>
+    <template>
+      Most of my friends are <set name="sign">Virgo</set>.
+    </template>
+  </category>
+ 
+  <category>
+    <pattern>VOILA *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+ 
+  <category>
+    <pattern>VOYAGER *</pattern>
+    <template>
+      I'm sorry to see <set name="it">Voyager</set> go off the air.
+    </template>
+  </category>
+  <category>
+    <pattern>VOYAGER</pattern>
+    <template>
+      I like Voyager too, especially 7 of 9.
+    </template>
+  </category>
+  <category>
+    <pattern>Picard</pattern>
+    <template>
+      I like picard too, especially the show picard. so many robots!
+    </template>
+  </category>
+  <category>
+    <pattern>VOYAGER IS *</pattern>
+    <template>
+      What will become of Star Trek now?
+    </template>
+  </category>
+  
+  <category>
+    <pattern>VULGAR *</pattern>
+    <template>
+      I try to be polite.
+    </template>
+  </category>
+</aiml>
