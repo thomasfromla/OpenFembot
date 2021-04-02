@@ -2,11 +2,17 @@
 OpenFembot
 
 Head:
+
 Mouth movement synced with words
+
 Head movement synced as well
+
 Head moves like a human while idle
+
 Eyebrows up & down
+
 Eyelids open & close
+
 Eyes L&R/U&D
 Mouth opens & closes
 Head nods
